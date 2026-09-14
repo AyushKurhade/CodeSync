@@ -1,0 +1,14 @@
+{
+  "name": "codesync",
+  "version": "1.0.0",
+  "description": "CodeSync - Live Collaborative Code Editor",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
